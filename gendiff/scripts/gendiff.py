@@ -2,15 +2,17 @@
 
 import argparse
 
+
 def main():
     parser = argparse.ArgumentParser(description='Compares two configuration files and shows a difference.')
     parser.add_argument('first_file', help='Path to the first configuration file')
     parser.add_argument('second_file', help='Path to the second configuration file')
-    
+
     args = parser.parse_args()
-    
+
     # Здесь будет логика сравнения файлов
     print(f"Сравниваем файлы: {args.first_file} и {args.second_file}")
+
 
 if __name__ == "__main__":
     main()

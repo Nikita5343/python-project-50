@@ -117,5 +117,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-json.load(open('file1.json'))
-json.load(open('file2.json'))
+# json.load(open('file1.json'))
+# json.load(open('file2.json'))

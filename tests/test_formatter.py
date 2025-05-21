@@ -10,51 +10,51 @@ def open_file(link):
 
 @pytest.fixture
 def paths_json_nested():
-    return ('gendiff/tests/test_files/file3.json',
-            'gendiff/tests/test_files/file4.json')
+    return ('tests/test_files/file3.json',
+            'tests/test_files/file4.json')
 
 
 @pytest.fixture
 def paths_json_not_nested():
-    return ('gendiff/tests/test_files/file1.json',
-            'gendiff/tests/test_files/file2.json')
+    return ('tests/test_files/file1.json',
+            'tests/test_files/file2.json')
 
 
 @pytest.fixture
 def paths_yml_nested():
-    return ('gendiff/tests/test_files/file3.yml',
-            'gendiff/tests/test_files/file4.yml')
+    return ('tests/test_files/file3.yml',
+            'tests/test_files/file4.yml')
 
 
 @pytest.fixture
 def paths_yml_not_nested():
-    return ('gendiff/tests/test_files/file1.yml',
-            'gendiff/tests/test_files/file2.yml')
+    return ('tests/test_files/file1.yml',
+            'tests/test_files/file2.yml')
 
 
 @pytest.fixture
 def answer_nested_stylish():
-    return open_file('gendiff/tests/test_files/answer_nested_stylish.txt')
+    return open_file('tests/test_files/answer_nested_stylish.txt')
 
 
 @pytest.fixture
 def answer_nested_plain():
-    return open_file('gendiff/tests/test_files/answer_nested_plain.txt')
+    return open_file('tests/test_files/answer_nested_plain.txt')
 
 
 @pytest.fixture
 def answer_nested_json():
-    return open_file('gendiff/tests/test_files/answer_nested_json.txt')
+    return open_file('tests/test_files/answer_nested_json.txt')
 
 
 @pytest.fixture
 def answer_not_nested_stylish():
-    return open_file('gendiff/tests/test_files/answer_not_nested_stylish.txt')
+    return open_file('tests/test_files/answer_not_nested_stylish.txt')
 
 
 @pytest.fixture
 def answer_not_nested_plain():
-    return open_file('gendiff/tests/test_files/answer_not_nested_plain.txt')
+    return open_file('tests/test_files/answer_not_nested_plain.txt')
 
 
 @pytest.fixture

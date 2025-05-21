@@ -98,5 +98,5 @@ def test_generate_tree_and_choose_format(
         'plain') == answer_nested_plain
     
     assert choose_format(
-        generate_diff_tree(*paths_yml_nested), 
+        generate_diff_tree(*paths_yml_nested),
         'json') == answer_nested_json

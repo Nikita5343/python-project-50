@@ -116,6 +116,7 @@ def create_tree(first_file,
 
     return res
 
+
 def generate_diff_tree(file_path1, file_path2, format='stylish') -> str:
     
     first_file = open_file(file_path1)
